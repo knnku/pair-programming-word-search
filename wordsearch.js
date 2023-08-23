@@ -8,7 +8,7 @@ const wordSearch = (letters, word) => {
   let vertical = false;
   let horizontal = false;
 
-  if(letters.length == 0) {
+  if (letters.length == 0) {
     return undefined;
   }
 
@@ -31,10 +31,6 @@ const wordSearch = (letters, word) => {
   } else {
     return false;
   }
-
-  
 };
 
 module.exports = wordSearch;
-
-//Implementing wordsearch
